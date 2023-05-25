@@ -14,6 +14,6 @@ class GroupViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
 class CarroViewSet(viewsets.ModelViewSet):
-    queryset = Carro.objects.all().order_by('valor')
+    queryset = Carro.objects.all().order_by('valor', '-id')
     serializer_class = CarroSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]

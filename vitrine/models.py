@@ -1,7 +1,8 @@
 from django.db import models
+from django.core.validators import MinLengthValidator
 
 class Carro(models.Model):
-    nome = models.CharField(max_length=200)
+    nome = models.CharField(max_length=200, validators=[MinLengthValidator(3)])
     marca = models.CharField(max_length=200)
     ano = models.PositiveSmallIntegerField()
     km = models.PositiveIntegerField()

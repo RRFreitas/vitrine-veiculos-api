@@ -69,7 +69,7 @@ $ python manage.py createsuperuser
 $ python manage.py runserver
 ```
 
-Pronto! Agora siga para rodar o [frontend](https://github.com/RRFreitas/)
+Pronto! Agora siga para rodar o [frontend](https://github.com/RRFreitas/frontend)
 
 ## Endpoints
 

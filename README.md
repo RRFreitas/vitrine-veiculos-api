@@ -55,12 +55,14 @@ $ docker pull postgres
 # Rodando container com porta 5432 e senha 1234
 $ docker run -p 5432:5432 -v /tmp/database:/var/lib/postgresql/data -e POSTGRES_PASSWORD=1234 -d postgres
 ```
-Agora, aplique as migrations no banco:
 ```shell
+# Agora, aplique as migrations no banco:
 $ python manage.py migrate
-```
-Crie um admin:
-```shell
+
+# Faça o initial load do banco para popular o banco com alguns dados iniciais
+$ python manage.py loaddata initial_load.json
+
+# Crie um admin
 $ python manage.py createsuperuser
 ```
 

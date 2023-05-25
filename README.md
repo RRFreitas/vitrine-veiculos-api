@@ -64,6 +64,11 @@ Crie um admin:
 $ python manage.py createsuperuser
 ```
 
+### Rodando os testes
+```shell
+$ python manage.py test
+```
+
 ### Rodando o servidor
 ```shell
 $ python manage.py runserver

@@ -74,7 +74,7 @@ $ python manage.py test
 $ python manage.py runserver
 ```
 
-Pronto! Agora siga para rodar o [frontend](https://github.com/RRFreitas/frontend)
+Pronto! Agora siga para rodar o [frontend](https://github.com/RRFreitas/vitrine-veiculos-frontend)
 
 ## Endpoints
 

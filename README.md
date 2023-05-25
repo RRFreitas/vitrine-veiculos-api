@@ -21,7 +21,7 @@
 ### Instalando o projeto
 ```shell
 # Clone o repositório
-$ git clone git@github.com:RRFreitas/vitrine-veiculos-api.git
+$ git clone https://github.com/RRFreitas/vitrine-veiculos-api.git
 
 # Acesse o diretório do projeto
 $ cd vitrine-veiculos-api
